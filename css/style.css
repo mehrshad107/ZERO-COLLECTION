@@ -11237,7 +11237,7 @@ body.dark-scheme::-webkit-scrollbar-track,#de_modal::-webkit-scrollbar-track {
 
 #purchase-now {
     position: fixed;
-    bottom: 90px;
+    bottom: 150px;
     right: 7%;
     z-index: 10000;
 }
