@@ -62,7 +62,7 @@ body {
     font-family: 'IRANSans';
     font-weight: normal;
     font-style: normal; 
-    font-size: 17px;
+    font-size: 13px;
     color: var(--body-font-color);
     padding: 0;
     line-height: 1.8em;
@@ -1132,6 +1132,7 @@ footer p{
 }
 
 .dark-scheme footer a{
+    direction: rtl;
     color: var(--dark-body-font-color);
 }
 
@@ -9072,7 +9073,7 @@ table thead {
 }
 
 p.lead {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.7em;
     margin-top: 0;
     font-weight: 500;
@@ -9415,6 +9416,7 @@ a.box-icon:hover{
 }
 
 .box-icon img{
+    color: #ffffff;
     width: 42px;
     position: absolute;
     /* direction: rtl; */
