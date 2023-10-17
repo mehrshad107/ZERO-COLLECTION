@@ -22,7 +22,7 @@
 @import url("../fonts/icofont/icofont.min.css");
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
-@import url('/assets/fonts/Farsi_numerals/WebFonts/css/fontiran.css');
+@import url('../assets/fonts/Farsi_numerals/WebFonts/css/fontiran.css');
 
 * {
     --border-default:  solid 1px rgba(30, 30, 30, 1);
@@ -224,7 +224,6 @@ header.autoshow.scrollOff {
 }
 
 header div#logo {
-    font-family: "Oswald", sans-serif;
     color: white;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -9069,7 +9068,6 @@ img.img-rounded {
 }
 
 .label {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 table thead {
@@ -9572,7 +9570,6 @@ a.de-card:hover {
     color: #555;
     font-size: 16px;
     line-height: 20px;
-    font-family: "Inter", Arial, Helvetica, sans-serifr;
     padding: 10px 20px 0px 60px;
     font-weight: 700;
     display: block;
@@ -10076,7 +10073,6 @@ span.icon {
 .f_box .f_text {
     height: 0;
     overflow: hidden;
-    font-family: Helvetica, Arial;
     font-weight: normal;
     display: inline-block;
     width: 70%;
@@ -11301,7 +11297,7 @@ body.dark-scheme::-webkit-scrollbar-track,#de_modal::-webkit-scrollbar-track {
     padding: 10px;
     padding-right: 20px;
     text-align: center;
-    top: 4px;
+    top: 7px;
     border-radius: 0px;
     right: -200px;
     opacity: 0;
@@ -12095,10 +12091,6 @@ p.intro {
 
 .no-bottom {
     padding-bottom: 0 !important;
-}
-
-.no-top {
-    padding-top: 0 !important;
 }
 
 .no-margin {
@@ -14328,24 +14320,6 @@ a.read_more i {
     -webkit-border-radius: 5px;
 }
 
-/*
-.ul-style-2 li:before {
-    font-family: "FontAwesome";
-    content: "\f00c";
-    margin-right: 12px;
-    width: 20px;
-    line-height: 1;
-    padding: 4px 0;
-    font-size: 12px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    background: #35404e;
-    color: #ffffff;
-}*/
-
 
 .ul-style-2 li:before {
     position: absolute;
@@ -15107,7 +15081,6 @@ a.btn-search-big:hover{
 
 .de_review blockquote {
     border: none;
-    font-family: "Inter", Georgia, "Times New Roman", Times, serif;
 }
 
 .de_review .de_nav li span {
@@ -15640,7 +15613,6 @@ a.btn-slider:hover {
 .deco-big {
     display: block;
     font-size: 120px;
-    font-family: "Miama";
     margin-top: 48px;
     margin-left: -20px;
 }
@@ -15648,7 +15620,6 @@ a.btn-slider:hover {
 .deco-md {
     display: block;
     font-size: 120px;
-    font-family: "Miama";
     margin-top: 32px;
     margin-left: -20px;
 }
@@ -15921,6 +15892,15 @@ img {
         position: absolute;
         top: 30px;
     }
+    .mousey{
+        visibility: hidden;
+    }
+    #purchase-now{
+        visibility: hidden;
+    }
+    .menu_side_area{
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -15937,6 +15917,9 @@ img {
         display: block;
     }
 
+    
+
+    
     .de_table .tr .td:nth-child(4),
     .de_table .tr .td:nth-child(5),
     .de_table .tr .td:nth-child(6),
@@ -16269,7 +16252,7 @@ img {
 
     #mainmenu>li.menu-item-has-children>a.menu-item {
         position: relative;
-        padding-right: 15px;
+        padding-right: 36px;
     }
 
     #mainmenu>li.menu-item-has-children>a.menu-item:after {
@@ -16480,9 +16463,46 @@ img {
         background: url(../images/ui/arrow-down.png) center no-repeat;
         position: absolute;
         right: 0;
-        margin-top: 10px;
+        margin-top: 6px;
         z-index: 1000;
         cursor: poInter;
+    }
+    .box-icon h4{
+        font-size: 21px;
+    }
+    .d-inner{
+        font-size: 14px;
+        /* margin-top: 10px; */
+        margin-bottom: 20px;
+    }
+
+    .de_pricing-table .d-action p{
+        font-size: 15px;
+    }
+
+    .de_pricing-table .d-list li{
+        font-size: 16px;
+    }
+
+    .p.lead{
+        font-size: 16.8px;
+    }
+    .container-timeline ul li{
+        padding: 0 33px 30px 0;
+        border-right: 1px solid #4362f8;
+        border-left: 0;
+    }
+    .spacer-20{
+        height: 50px;
+    }
+
+    .container-timeline p{
+        font-size: 14px;
+    }
+
+    .de_pricing-table .d-recommend{
+        padding: 4px;
+    font-size: 17px;
     }
 
     .dark-scheme header.header-mobile #mainmenu>li>span {
@@ -16694,8 +16714,8 @@ img {
     }
 
     h1.very-big {
-        font-size: 9vw;
-        line-height: 9vw;
+        font-size: 48px;
+        line-height: 4REM;
         letter-spacing: 0;
     }
 
@@ -16776,6 +16796,7 @@ img {
         display: none;
     }
 
+
     .d_profile {
         display: block;
     }
@@ -16805,7 +16826,6 @@ img {
     }
 
     .menu_side_area {
-        margin-left: 20px;
         width: 100%;
         position: relative;
         right: 0;
