@@ -31,7 +31,7 @@
     --bg-color-dark: #161C2D;
     --body-font-color: #6D7C90;
     --dark-body-font-color: rgba(255, 255, 255, .5);
-
+    letter-spacing: normal;
 }
 
 .g-custom{
@@ -1047,7 +1047,7 @@ section.no-bg,
 
 .dark-scheme section{
     background: #101224;
-}
+    }
 
 .no-bg{
     background: none !important;
@@ -3747,7 +3747,7 @@ footer h6 {
 h1,
 .h1 {
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     line-height: 58.08px;
 }
 
@@ -3821,8 +3821,8 @@ h1.big,
 }
 
 h1.very-big {
-    font-size: 88px;
-    line-height: 88px;
+    font-size: 98px;
+    line-height: 120px;
 }
 
 h1.ultra-big {
@@ -3866,7 +3866,7 @@ h2 .small-border {
 h2 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 20px;
     line-height: 53.08px;
 }
@@ -5963,13 +5963,16 @@ header.smaller{
 }
 .de_pricing-table .d-action p{
     font-size: 12px;
+    font-weight: 150;
+    margin-top: 4px;
 }
 .de_pricing-table .d-list{
     margin: 0;
     padding: 0;
     list-style: none;
     position: relative;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 200;
 }
 .de_pricing-table .d-list li{
     padding-right: 25px;
@@ -7354,8 +7357,8 @@ a.btn-right {
 
 .de_testi.type-2 blockquote p {
     font-family: var(--body-font);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 200;
     line-height: 1.7em;
 }
 
@@ -7821,8 +7824,9 @@ a.btn-right {
 }
 
 .container-timeline p{
-    font-size: 17px;
+    font-size: 12px;
     line-height: 1.8em;
+    font-weight: 150;
 }
 
 .timelines h2 {
@@ -9396,6 +9400,8 @@ a.box-icon:hover{
 
 .d-inner{
     text-align-last: right;
+    font-size: 11px;
+    font-weight: 100;
 }
 .box-icon .d-inner{
     padding-left: 12%;
@@ -9408,11 +9414,10 @@ a.box-icon:hover{
     text-align-last: right;
 
 }
-
-
+.mg-top-50{margin-top:50px;}
 .box-icon h4{
     font-size: 20px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 .box-icon img{
@@ -11289,7 +11294,7 @@ body.dark-scheme::-webkit-scrollbar-track,#de_modal::-webkit-scrollbar-track {
 #purchase-now .pn-hover {
     position: absolute;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
     background: #ffffff;
     color: #78A938;
     width: 120px;
