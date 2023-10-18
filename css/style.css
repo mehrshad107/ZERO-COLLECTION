@@ -3822,6 +3822,7 @@ h1.big,
 h1.very-big {
     font-size: 98px;
     line-height: 120px;
+    margin: 0;
 }
 
 h1.ultra-big {
@@ -7187,7 +7188,6 @@ a.btn-right {
     color: #fff;
 }
 
-.de-team-list .social {}
 
 .de-team-list .social a {
     display: inline-block;
@@ -12668,6 +12668,7 @@ section.bg-grey {
 
 .wow {
     visibility: hidden;
+    margin-top: 40px;
 }
 
 #back-to-top {
