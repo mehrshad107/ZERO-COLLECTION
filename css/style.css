@@ -683,6 +683,7 @@ header .header-col.mid .social-icons {
 
 #mainmenu li.has-child>a {
     padding-right: 0px;
+    padding-left: 9px;
 }
 
 #mainmenu a {
