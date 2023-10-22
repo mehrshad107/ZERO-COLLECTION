@@ -6031,7 +6031,7 @@ header.smaller{
 .dark-scheme .de_pricing-table.type-2{
     background: #16172D;
     border-right: solid 1px rgba(255, 255, 255, .05);
-    border-bottom: solid 15px rgba(255, 255, 255, .05);
+    border-bottom: solid 1px rgba(255, 255, 255, .05);
 }
 
 .de_pricing-tables div:last-child .de_pricing-table.type-2{
@@ -16757,6 +16757,10 @@ img {
         -webkit-column-gap: 20px;
         column-count: 3;
         column-gap: 20px;
+    }
+
+    .dark-scheme .de_pricing-table.type-2{
+    border-bottom: solid 15px rgba(255, 255, 255, .05);
     }
 
     .subfooter .de-flex,
