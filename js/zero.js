@@ -1,6 +1,47 @@
 
 (function($) {
 	'use strict';
+    
+    jQuery(document).ready(function() {
+        $(function() {
+            // jquery typed plugin
+            $(".typed").typed({
+                stringsElement: $('.typed-strings'),
+                typeSpeed: 100,
+                backDelay: 500,
+                loop: true,
+                contentType: 'html', // or text
+                // defaults to false for infinite loop
+                loopCount: false,
+                callback: function() { null; },
+                resetCallback: function() { newTyped(); }
+            });
+        });
+    });
+
+    async function checkLocation() {
+        try {
+            // Fetch data from IP geolocation API
+            let response = await fetch('http://ip-api.com/json/');
+            let data = await response.json();
+            console.log(data);
+
+            if(data.country === "Iran") {
+                // If country is IRAN, show the popup
+                let proceed = confirm("فیلترشکنت رو روشن کن ، داری به جزیره زیرو میرسی!!");
+                if(proceed) {
+                    // Introduce a 7-second delay
+                setTimeout(() => {
+                    
+                }, 7000);
+                }
+            } else {
+                
+            }
+        } catch (error) {
+            console.error('Error fetching geolocation:', error);
+        }
+    }
 
      var rtl_mode = 'off'; // on - for enable RTL, off - for deactive RTL
      var preloader = 'on'; // on - for enable preloader, off - for disable preloader
