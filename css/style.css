@@ -3670,8 +3670,12 @@ footer.footer-light h5 {
     margin-top: 0;
     font-family: var(--title-font);
     font-weight: bold;
-    color: #161C2D;
+    color: white;
+    direction: rtl;
+    text-align: center;
 }
+
+
 
 .dark-scheme h1,
 .dark-scheme h2,
@@ -12007,6 +12011,12 @@ section .color-overlay {
 
 p {
     margin-bottom: 20px;
+    margin-top: 0;
+    font-family: var(--title-font);
+    font-weight: bold;
+    color: white;
+    direction: rtl;
+    text-align: center;
 }
 
 p.intro {
