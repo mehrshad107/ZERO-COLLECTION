@@ -10,6 +10,27 @@
   gtag('js', new Date());
 
   gtag('config', 'G-Q3JHTKXV0S');
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+  // When the user visits the page, show the popup after 3 seconds
+  setTimeout(function() {
+    document.getElementById("myModal").style.display = "block";
+  }, 3000);
+
+  // When the user clicks on <span> (x), close the modal
+  document.querySelector(".close").addEventListener('click', function() {
+    document.getElementById("myModal").style.display = "none";
+  });
+
+  // Also close if anywhere outside of the modal content is clicked
+  window.onclick = function(event) {
+    if (event.target == document.getElementById("myModal")) {
+      document.getElementById("myModal").style.display = "none";
+    }
+  }
+});
+
+
 </script>
     <title>خرید فیلترشکن پرسرعت بدون قطعی،خرید فیلتر شکن آیپی ثابت،ZERO VPN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -155,6 +176,18 @@
             </div>
         </header>
         <!-- header close -->
+        <!-- Popup Structure -->
+        <div id="myModal" class="modal">
+            <!-- Popup content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+              <h2>" پیشنهاد ویژه زیرو VPN!"              </h2>
+              <p>پیشنهاد ویژه‌ای داریم براتون</p>
+                <p>فرصتی عالیه که با زیرو VPN، اینترنت رو آزاد و بی‌حد و مرز تجربه کنید. دنبال اینترنتی امن و بدون محدودیت می‌گردید؟ با ما همراه بشید. همین حالا می‌تونید دکمه پایین رو بزنید و تو ربات هوشمند تلگرام ما عضو شید تا اشتراک خودتون رو راحت خریداری کنید!</p>
+                <a href="https://t.me/zer0_vpn_bot" class="cta-button" target="_blank">ورود به ربات تلگرام</a>
+            </div>
+          </div>
+  
         <!-- content begin -->
         <div class="no-bottom no-top" id="icons-etline.html">
             <div id="top"></div>
